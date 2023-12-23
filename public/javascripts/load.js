@@ -59,7 +59,7 @@ let insertUser = (user) => {
   // Create a new row and set its innerHTML based on the user data
   var newRow = tableBody.insertRow();
   newRow.setAttribute("id", user.id);
-  img_url = "http://localhost:3000/uploads/" + user.argazkia;
+  img_url = "https://ariketa4.salazar.ninja:7000/uploads/" + user.argazkia;
   newRow.innerHTML = `
                 <th scope="row">${user.id}</th>
                 <td><img src="${img_url}" alt="user image" width="30"></td>
