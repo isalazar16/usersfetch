@@ -6,7 +6,7 @@ var router = express.Router();
 // ];
 
 const mongojs = require('mongojs')
-const db = mongojs('bezeroakdb', ['bezeroak'])
+const db = mongojs('bezeroakdb', ['bezeroakArgazki'])
 
 const multer = require('multer')
 var path = require('path');
